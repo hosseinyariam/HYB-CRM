@@ -1,0 +1,51 @@
+/**
+*
+*	Name:			Kalameh Fonts
+*	Version:			4.1
+*	Author:			Naser Khadem
+*	Created on:		March 11, 2019
+*	Updated on:		July 17, 2021
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت کلمه یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+Kalameh fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- fonts/-
+*	
+**/
+@font-face {
+    font-family: KalamehWebFaNum;
+    font-style: normal;
+    font-weight: 100;
+    /* مسیر اصلاح شده: حذف ../ و اضافه کردن مسیر صحیح */
+    src: url('../Kalameh-font-v4.1/woff2/KalamehWebFaNum-Thin.woff2') format('woff2'),
+         url('../Kalameh-font-v4.1/woff/KalamehWebFaNum-Thin.woff') format('woff'),
+     url('../Kalameh-font-v4.1/ttf/KalamehFaNum-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: KalamehWebFaNum;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../Kalameh-font-v4.1/woff2/KalamehWebFaNum-Black.woff2') format('woff2'),
+         url('../Kalameh-font-v4.1/woff/KalamehWebFaNum-Black.woff') format('woff'),
+     url('../Kalameh-font-v4.1/ttf/KalamehFaNum-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: KalamehWebFaNum;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../Kalameh-font-v4.1/woff2/KalamehWebFaNum-Bold.woff2') format('woff2'),
+         url('../Kalameh-font-v4.1/woff/KalamehWebFaNum-Bold.woff') format('woff'),
+     url('../Kalameh-font-v4.1/ttf/KalamehFaNum-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: KalamehWebFaNum;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Kalameh-font-v4.1/woff2/KalamehWebFaNum-Regular.woff2') format('woff2'),
+         url('../Kalameh-font-v4.1/woff/KalamehWebFaNum-Regular.woff') format('woff'),
+     url('../Kalameh-font-v4.1/ttf/KalamehFaNum-Regular.ttf') format('truetype');
+}
